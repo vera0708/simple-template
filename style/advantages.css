@@ -1,0 +1,125 @@
+.advantages {
+    position: relative;
+    max-width: 1600px;
+    margin: 0 auto;
+    padding: 70px 257px;
+    display: flex;
+    background-color: var(--second-bg-color);
+    color: var(--second-color);
+}
+
+.content-advantages {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.content-advantages__title {
+    font-weight: 700;
+    font-size: 35px;
+    line-height: 41px;
+    text-align: center;
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+.content-advantages__about {
+    position: relative;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 26px;
+    text-align: center;
+    margin-bottom: 35px;
+}
+
+.content-advantages__about::before,
+.content-advantages__about::after {
+    content: "";
+    display: block;
+    position: absolute;
+    width: 43px;
+    height: 2px;
+    background-color: var(--second-color);
+    bottom: 50%;
+}
+
+.content-advantages__about::before {
+    margin-left: 175px;
+    left: 175px;
+    /* margin-left: -70px; */
+}
+
+.content-advantages__about::after {
+    margin-right: 175px;
+    right: 175px;
+}
+
+.content-advantages__description {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;
+    padding: 0 70px;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.content-advantages__list {
+    display: flex;
+    gap: 50px;
+}
+
+.content-advantages__item {
+    position: relative;
+    display: flex;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 28px;
+    text-align: center;
+    padding-top: 138px;
+}
+
+.content-advantages__item::before {
+    content: '';
+    position: absolute;
+    display: inline-block;
+    top: calc(50% - 63px);
+    left: calc(50% - 16px);
+    font-weight: 500;
+    font-size: 57px;
+    line-height: 1;
+    text-align: center;
+    color: var(--main-color);
+    z-index: 99;
+}
+
+.content-advantages__item::after {
+    content: '';
+    position: absolute;
+    display: inline-block;
+    width: 122px;
+    height: 122px;
+    top: 0;
+    right: calc(50% - var(--circle-size) / 2);
+    border-radius: 50%;
+    background-color: #23C7EC;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: var(--circle-size);
+}
+
+.content-advantages__item-one:before {
+    content: '1';
+    ;
+}
+
+.content-advantages__item-two:before {
+    content: '2';
+}
+
+.content-advantages__item-three:before {
+    content: '3';
+}
+
+.content-advantages__item-four:before {
+    content: '4';
+}

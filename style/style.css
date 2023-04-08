@@ -1,0 +1,10 @@
+@import 'global.css';
+@import "home.css";
+@import "advantages.css";
+
+:root {
+    --main-color: #ffffff;
+    --second-color: #383A4C;
+    --second-bg-color: #F9F9F9;
+    --circle-size: 122px;
+}
