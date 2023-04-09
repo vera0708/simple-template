@@ -8,3 +8,15 @@
     --second-bg-color: #F9F9F9;
     --circle-size: 122px;
 }
+
+@media(max-width: 1310px) {
+    :root {
+        --circle-size: 114px;
+    }
+}
+
+@media(max-width: 1024px) {
+    :root {
+        --circle-size: 104px;
+    }
+}

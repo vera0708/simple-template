@@ -2,7 +2,7 @@
     position: relative;
     max-width: 1600px;
     margin: 0 auto;
-    padding: 70px 257px;
+    padding: 70px 157px;
     display: flex;
     background-color: var(--second-bg-color);
     color: var(--second-color);
@@ -18,7 +18,6 @@
     font-weight: 700;
     font-size: 35px;
     line-height: 41px;
-    text-align: center;
     text-align: center;
     margin-bottom: 25px;
 }
@@ -44,21 +43,21 @@
 }
 
 .content-advantages__about::before {
-    margin-left: 175px;
-    left: 175px;
-    /* margin-left: -70px; */
+    /* margin-left: 175px; */
+    left: 38%;
+
 }
 
 .content-advantages__about::after {
-    margin-right: 175px;
-    right: 175px;
+    /* margin-right: 175px; */
+    right: 38%;
 }
 
 .content-advantages__description {
     font-weight: 400;
     font-size: 18px;
     line-height: 25px;
-    padding: 0 70px;
+    padding: 0 115px;
     text-align: center;
     margin-bottom: 50px;
 }
@@ -122,4 +121,269 @@
 
 .content-advantages__item-four:before {
     content: '4';
+}
+
+@media(max-width: 1420px) {
+    .advantages {
+        max-width: 1500px;
+        padding-left: 95px;
+        padding-right: 95px;
+    }
+
+    .content-advantages__description {
+        padding: 0 100px;
+    }
+}
+
+@media(max-width: 1310px) {
+    .advantages {
+        max-width: 1400px;
+        padding-left: 60px;
+        padding-right: 60px;
+    }
+
+    .content-advantages__title {
+        font-size: 30px;
+        line-height: 36px;
+        margin-bottom: 40px;
+    }
+
+    .content-advantages__description {
+        padding: 0 80px;
+    }
+
+    .content-advantages__item {
+        font-size: 16px;
+        line-height: 22px;
+        padding-top: 130px;
+    }
+
+    .content-advantages__item::after {
+        width: 114px;
+        height: 114px;
+    }
+}
+
+@media(max-width: 1024px) {
+    .advantages {
+        max-width: 1050px;
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+
+    .content-advantages__title {
+        font-size: 32px;
+        line-height: 38px;
+        margin-bottom: 23px;
+    }
+
+    .content-advantages__about {
+        font-size: 20px;
+        line-height: 23px;
+        margin-bottom: 33px;
+    }
+
+    .content-advantages__about::before,
+    .content-advantages__about::after {
+        width: 40px;
+    }
+
+    .content-advantages__about::before {
+        left: 39%;
+    }
+
+    .content-advantages__about::after {
+        right: 39%;
+    }
+
+    .content-advantages__description {
+        font-size: 16px;
+        line-height: 23px;
+        padding: 0 116px;
+    }
+
+    .content-advantages__item {
+        font-size: 18px;
+        line-height: 25px;
+        padding-top: 130px;
+    }
+
+    .content-advantages__item::before {
+        top: calc(50% - 65px);
+        left: calc(50% - 15px);
+        font-size: 52px;
+        /* line-height: 73px; */
+    }
+
+    .content-advantages__item::after {
+        width: 104px;
+        height: 104px;
+    }
+}
+
+@media(max-width: 925px) {
+    .advantages {
+        max-width: 970px;
+        padding-top: 50px;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .content-advantages__title {
+        font-size: 26px;
+        line-height: 30px;
+    }
+
+    .content-advantages__description {
+        padding: 0 65px;
+    }
+
+    .content-advantages__list {
+        gap: 40px;
+    }
+
+    .content-advantages__item::before {
+        top: calc(50% - 77px);
+    }
+
+    .content-advantages__item {
+        font-size: 16px;
+    }
+}
+
+@media(max-width: 768px) {
+    .advantages {
+        max-width: 790px;
+        padding-top: 50px;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    .content-advantages__title {
+        font-size: 22px;
+        line-height: 32px;
+    }
+
+    .content-advantages__about {
+        font-size: 18px;
+        margin-bottom: 30px;
+    }
+
+    .content-advantages__about::before,
+    .content-advantages__about::after {
+        width: 30px;
+    }
+
+    .content-advantages__about::before {
+        left: 36%;
+    }
+
+    .content-advantages__about::after {
+        right: 36%;
+    }
+
+    .content-advantages__description {
+        font-size: 14px;
+        line-height: 23px;
+        padding: 0 76px;
+    }
+
+
+    .content-advantages__list {
+        flex-wrap: wrap;
+        gap: 40px;
+        justify-content: center;
+    }
+
+    .content-advantages__item::before {
+        top: calc(50% - 65px);
+    }
+}
+
+@media(max-width: 480px) {
+    .advantages {
+        max-width: 500px;
+        padding: 30px 5px 60px 5px;
+    }
+
+    .content-advantages__title {
+        font-size: 20px;
+        line-height: 23px;
+        margin-bottom: 15px;
+    }
+
+    .content-advantages__about {
+        font-size: 16px;
+        line-height: 19px;
+        margin-bottom: 26px;
+    }
+
+    .content-advantages__about::before,
+    .content-advantages__about::after {
+        width: 19.7px;
+        height: 1px;
+    }
+
+    .content-advantages__about::before {
+        left: 34%;
+    }
+
+    .content-advantages__about::after {
+        right: 34%;
+    }
+
+    .content-advantages__description {
+        font-size: 12px;
+        line-height: 17px;
+        padding: 0;
+        margin-bottom: 40px;
+    }
+
+    .content-advantages__list {
+        flex-direction: column;
+        gap: 40px;
+        padding-left: 60px;
+        padding-right: 60px;
+        align-content: center;
+    }
+
+    .content-advantages__item::before {
+        line-height: 53px;
+    }
+}
+
+@media(max-width: 320px) {
+    .advantages {
+        max-width: 300px;
+    }
+
+    .content-advantages__about {
+        font-size: 16px;
+        line-height: 19px;
+        margin-bottom: 26px;
+    }
+
+    .content-advantages__about::before {
+        left: 28%;
+    }
+
+    .content-advantages__about::after {
+        right: 28%;
+    }
+
+    /* .content-advantages__description {
+        font-size: 12px;
+        line-height: 17px;
+        padding: 0;
+        margin-bottom: 40px;
+    } */
+
+    .content-advantages__list {
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+
+    .content-advantages__item::before {
+        line-height: 53px;
+    }
 }
