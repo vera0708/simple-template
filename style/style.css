@@ -1,6 +1,7 @@
 @import 'global.css';
 @import "home.css";
 @import "advantages.css";
+@import "contact.css";
 
 :root {
     --main-color: #ffffff;

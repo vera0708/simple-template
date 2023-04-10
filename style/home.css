@@ -207,8 +207,8 @@
     }
 
     .content-header__title {
-        font-size: 30px;
-        line-height: 37px;
+        font-size: 25px;
+        line-height: 35px;
         margin-bottom: 25px;
     }
 
@@ -245,7 +245,7 @@
 
 @media(max-width: 320px) {
     .home-screen {
-        max-width: 300px;
+        max-width: 320px;
         padding: 15px 5px 65px 5px;
     }
 
