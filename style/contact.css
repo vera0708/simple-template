@@ -118,7 +118,7 @@
     }
 
     .contact-screen__agreement {
-        font-size: 17px;
+        font-size: 16px;
         line-height: 20px;
     }
 }
@@ -127,8 +127,8 @@
     .contact-screen {
         max-width: 1000px;
         padding-top: 50px;
-        padding-left: 15px;
-        padding-right: 15px;
+        padding-left: 10px;
+        padding-right: 10px;
     }
 
     .contact-screen__title {
@@ -141,8 +141,6 @@
         line-height: 23px;
     }
 }
-
-
 
 @media(max-width: 480px) {
     .contact-screen {

@@ -52,7 +52,7 @@
     display: none;
 }
 
-.content-header-header {
+.content-header {
     max-width: 990px;
     display: flex;
     flex-direction: column;
@@ -167,8 +167,8 @@
         line-height: 15px;
     }
 
-    .content-header-header {
-        max-width: 780px;
+    .content-header {
+        max-width: 754px;
     }
 
     .content-header__title {
