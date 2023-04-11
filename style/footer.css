@@ -2,7 +2,7 @@
     position: relative;
     max-width: 1600px;
     margin: 0 auto;
-    padding: 45px 100px;
+    padding: 47px 75px 45px 100px;
     background-color: #2F324B;
 }
 
@@ -76,16 +76,25 @@
 @media(max-width: 1024px) {
     .footer {
         max-width: 1100px;
+        padding-left: 20px;
+        padding-right: 5px;
     }
 
     .footer__logo {
         width: 60px;
     }
 
+    .footer__right {
+        padding-top: 5px;
+        font-size: 12px;
+        line-height: 16px;
+    }
+
     .footer__phone {
         font-size: 21px;
         line-height: 25px;
-        gap: 4px;
+        gap: 6px;
+        padding: 0;
     }
 
     .footer__link {
@@ -100,7 +109,7 @@
     }
 
     .footer__content {
-        margin-bottom: 15px;
+        margin-bottom: 23px;
     }
 
     .footer__black {
@@ -130,7 +139,8 @@
     .footer__right {
         max-width: 87.3px;
         font-size: 8px;
-        line-height: 11px;
+        line-height: 12px;
+        padding-top: 0;
     }
 
     .footer__phone {
@@ -153,5 +163,10 @@
 @media(max-width: 320px) {
     .footer {
         max-width: 320px;
+        padding: 25px 5px 0 5px;
+    }
+
+    .footer__block {
+        gap: 18px;
     }
 }
