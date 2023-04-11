@@ -1,3 +1,7 @@
+.white-advantages {
+    background-color: var(--main-color);
+}
+
 .advantages {
     position: relative;
     max-width: 1600px;
